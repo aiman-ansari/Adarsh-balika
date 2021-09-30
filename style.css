@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mukta Malar', sans-serif;
+}
+:root{
+    --primary-color:#fffff4;
+    --purple-color:#AA2E4C;
+    --dark-gray:#e3e6d0e0;
+}
+nav{
+    height: 15vh;
+    background-color: var(--purple-color);
+    
+}
+nav p{
+    font-size: 1.5rem;
+    color:var(--primary-color);
+    font-family: 'Mukta Malar', sans-serif;
+    padding: 1rem;
+}
+.navbar{
+    text-align: right;
+    justify-content: space-between;
+}
+nav li{
+    display: inline;
+    padding: 1rem .5rem ;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 1rem;
+    font-weight: bold;
+    line-height: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: .5rem .5rem;
+    border-radius: 2                                                                                                                                        ;
+}
+.hero-img{
+    width: 25vw;
+    height: 30vh;
+}
+.header-intro, .header-intro-purple{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1rem;
+    color: rgb(121, 118, 118);
+}
+.header-intro-purple{
+    color:var(--purple-color);
+    
+}
+.container{
+    width:var(-width--break); 
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.container-light{
+    width: 90%;
+    /* height: 25vh; */
+    background-color: var(--primary-color);
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 1rem; */
+}
+.container-dark{
+    width: 90%;
+    /* margin-bottom: 1rem; */
+    background-color: var(--dark-gray);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h3{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+.container p{
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    padding: 1px 10px 10px;
+}
+.container-btn-dark, .container-btn-light{
+    background-color: var(--purple-color);
+    height: 6vh;
+    width: 9rem;
+    margin: 1rem;
+    border: none;
+    font-size: bold;
+    border-radius: .6rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+.container-btn-light{
+    background-color: transparent;
+    border: 2px solid var(--purple-color);
+    color: var(--purple-color);
+}
+.container-btn-light:hover{
+    color: var(--primary-color);   
+    background-color: var(--purple-color);
+
+}
+.container-btn-dark:hover{
+    background-color: transparent;
+    border: 2px solid var(--purple-color);
+    color: var(--purple-color);   
+}
+.container .blog-link{
+    font-size: 1.2rem;
+    color: var(--purple-color);
+    font-weight: bold;
+    margin:1rem;
+}
+.container-date{
+    font-size: .8rem;
+    margin: .5rem;
+    color: rgb(121, 118, 118);
+}
+
+footer{
+    margin-top: 1rem;
+    text-align: center;
+    background-color: var(--purple-color);
+    bottom: 0%;
+    width: 100%;
+    height: 20vh;
+}
+footer p{
+    
+    font-weight: bold;
+    color: white;
+}
+img,li{
+    padding: 1rem .5rem;
+    display:inline
+}
+
+.footer-img{
+    height: 12vh;
+    width: 3rem;
+}
