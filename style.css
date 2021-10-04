@@ -35,8 +35,8 @@ nav li{
     text-align: right;
     margin-right: 1rem;
     font-weight: bold;
-    margin-bottom :1rem;
-/*     line-height: 10px; */
+/*     margin-bottom :1rem; */
+    line-height: 5px;
 }
 nav a{
     text-decoration: none;
