@@ -35,6 +35,7 @@ nav li{
     text-align: right;
     margin-right: 1rem;
     font-weight: bold;
+    margin-bottom :1rem;
 /*     line-height: 10px; */
 }
 nav a{
@@ -44,8 +45,8 @@ nav a{
     border-radius: 2                                                                                                                                        ;
 }
 .hero-img{
-    width: 4rem;
-    height: 4rem;
+    width: 10rem;
+    height: 10rem;
 }
 .header-intro, .header-intro-purple{
     font-size: 1.8rem;
